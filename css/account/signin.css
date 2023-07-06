@@ -1,0 +1,116 @@
+body {
+  font-family: 'Jost', sans-serif;
+  background-image: url(/images/backgroundLogin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto 0;
+  padding: 20px;
+  background-color: #f9f0e1;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #c2c2c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:'Jost', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 22.5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-family:'Jost', sans-serif;
+  position: relative;
+  z-index: 10;
+  color: #333c56;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: #005086;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #005086;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.form-group button {
+  font-family:'Jost', sans-serif;
+  font-weight: bold;
+  color: #005086 !important;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 30px;
+  border-radius: 0;
+  border: 2px solid #005086;
+  background: #f9f0e1;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.form-group button:hover {
+  color: #f9f0e1 !important;
+  background: #005086;
+}
+
+.icon.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon.flex a {
+  margin: 0 10px;
+  color: #005086;
+  font-size: 24px;
+}
+
+.icon.flex a:hover {
+  color: #ff0000;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 50px auto 0;
+    padding: 10px;
+    font-size: 12px;
+    position: relative;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
